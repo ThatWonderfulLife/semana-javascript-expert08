@@ -44,5 +44,5 @@ function onChange(e) {
     setTimeout(() => {
         clock.stop()
         elapsed.innerText = `Process took ${took.replace('ago', '')}`
-    }, 5000)
+    }, 1000)
 }
